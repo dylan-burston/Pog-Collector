@@ -78,6 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'pogcollector',
+        'USER': 'postgres',
+        'PASSWORD': '1234'
     }
 }
 
